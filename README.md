@@ -18,4 +18,4 @@ make
   - GNU, version 8.1 or newer (`gfortran`)
   - Intel, version 18.1 or newer (`ifort`)
   - PGI, not tested (`pgfortran`)
-- cmake > 3.10
+- cmake, version 3.10 or newer
