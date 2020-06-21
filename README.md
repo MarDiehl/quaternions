@@ -4,16 +4,18 @@ A Fortran implementation of a quaternion class
 
 ## Getting started
 
-To compile
 ```
 export FC=gfortran # or ifort
 mkdir build
 cd build
-cmake .. -DCMAKE_Fortran_COMPILER=gfortran
+cmake .. -DCMAKE_Fortran_COMPILER=$FC
 make
 ./src/test_quaternions
 ```
 
 ## Prerequisites
-Fortran compiler (gfortran/GNU or ifort/Intel, pgfortran/PGI not nested but might work)
-cmake
+- Fortran compiler
+  - GNU (`gfortran`), > 8.1
+  - Intel (`ifort`) > 18.1
+  - PGI (`pgfortran`), not tested but might work
+- cmake > 3.10
