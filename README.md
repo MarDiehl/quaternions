@@ -15,7 +15,7 @@ make
 
 ## Prerequisites
 - Fortran compiler
-  - GNU, version 8.1 or newer (`gfortran`)
-  - Intel, version 18.1 or newer (`ifort`)
+  - GNU, version 8.0 or newer (`gfortran`)
+  - Intel, version 18.0 or newer (`ifort`)
   - PGI, not tested (`pgfortran`)
 - cmake, version 3.10 or newer
